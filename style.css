@@ -37,14 +37,14 @@
 }
 #tasks,
 #completed-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .task-wrapper, .list-title {
-  list-style:none;
+  list-style: none;
 }
 .task, #new-task, .edit, .delete, .add {
-  outline:none;
+  outline: none;
 }
 .edit, .delete, .add {
   background: none;
@@ -136,14 +136,14 @@
 
 /* Edit Task */
 .task-wrapper .task-input {
-  display:none
+  display: none
 }
 
 .task-wrapper.edit-mode .task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .task-wrapper.edit-mode .task-name {
-  display:none;
+  display: none;
 }
